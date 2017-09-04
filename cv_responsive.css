@@ -1,0 +1,79 @@
+body {background-color: #EBEBEB; font-family: tahoma, arial;}
+
+#wrap{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	background-color: #EBEBEB;
+	max-width: 1024px;
+
+}
+/*dynamic pseudo-elements*/
+a:link {color: #2494B3; text-decoration: none;}
+a:hover{color: #00EEFF; font-size: 108%;}
+a:active{color: #00EEFF;}
+a:visited{color: #2494B3;}
+
+#header{
+	margin: 0 auto;
+	width: 100%;
+	margin-bottom:5px;
+	padding-left: 10px; padding-right: 10px; 
+	background-color: #F7F7F3;
+	text-align:center;
+	border: 1px solid silver;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.item{
+	
+	margin: 0 auto;
+	margin-bottom:5px;
+	width: 100%;
+	background-color: #F7F7F3;
+	padding-left: 10px; padding-right: 10px;
+	border: 1px solid silver;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	 -webkit-border-radius: 10px;
+}
+
+
+img {float:right; margin-right: 10px; margin-top: 10px; margin-bottom: 50px;}
+img {
+	border: 1px solid silver;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	float: right;
+}
+ 
+
+h1,h2,h3{font-family: tahoma;}
+
+.skills {background-color: #F7F7F3;
+	border: 1px solid silver;
+	margin-bottom: 10px;
+}
+
+.name{padding-left: 5px;
+	border: 1px solid silver;
+
+}
+
+#footer {
+	clear: both;
+	margin: 0 auto;
+	border: 1px solid silver;
+	border-radius: 10px;
+	text-align: center;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	width:100%;
+	height:auto;
+	bottom:0;
+	background-color: #F7F7F3;
+	padding-left: 10px; padding-right: 10px;
+}
